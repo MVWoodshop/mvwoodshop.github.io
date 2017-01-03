@@ -1,0 +1,4 @@
+RewriteEngine On
+Options +FollowSymLinks
+RewriteRule ^test\.html http://www.google.com/? [R=301,L]
+DirectoryIndex index.php

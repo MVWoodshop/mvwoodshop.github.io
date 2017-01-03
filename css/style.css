@@ -1,0 +1,51 @@
+html {
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.parallax-container {
+    min-height: 100px;
+    height: 52vh;
+}
+
+.parallax-picture {
+    height: 100%;
+}
+
+#sidebar-icon {
+    height: 75%;
+    width: 75%;
+}
+
+#officers-parallax {
+    min-height: 100px;
+    height: 54vh !important;
+}
+
+.thumb-wrapper {
+    min-width: 250px !important;
+    min-height: 250px !important;
+}
+
+#load-btn {
+    display: block;
+}
